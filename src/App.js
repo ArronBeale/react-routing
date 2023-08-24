@@ -21,6 +21,11 @@ const router = createBrowserRouter([
       { path: '/products', element: <ProductsPage /> },
     ],
   },
+  // Path dependant routing
+  // {
+  //   path: '/admin',
+  //   children: []
+  // }
 ]);
 
 // Alternative way to create router, older
